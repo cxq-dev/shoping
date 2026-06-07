@@ -1,0 +1,72 @@
+/* 京东 CSS 初始化 — 重置默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 斜体标签不倾斜 */
+em,
+i {
+    font-style: normal;
+}
+
+/* 清除列表默认点 */
+li {
+    list-style: none;
+}
+
+/* 图片去边框、消除底部空白缝隙 */
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/* 按钮鼠标样式 */
+button {
+    cursor: pointer;
+}
+
+/* 链接默认样式 */
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+/* 京东红 hover */
+a:hover {
+    color: #c81623;
+}
+
+/* 统一表单字体 */
+button,
+input {
+    font-family: Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    border: 0;
+    outline: none;
+}
+
+/* 全局文字基础 */
+body {
+    -webkit-font-smoothing: antialiased;
+    /* 抗锯齿 */
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666;
+
+}
+
+/* 隐藏类 */
+.hide,
+.none {
+    display: none;
+}
+
+/* 清除浮动（京东经典版） */
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+}
